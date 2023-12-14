@@ -44,12 +44,12 @@ a, a:hover, a:focus {
 
 .hero-right-section>h1,.inside-seminar-section .right>h1{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 75px;
+    font-size: 4.7rem;
     line-height: 70px;
 }
 .hero-right-section>p,.seminar-section-footer .right,.inside-seminar-section .left > p,.inside-seminar-section .right .row > p{
     font-family: 'Lato', sans-serif;
-    font-size: 12.5px;
+    font-size: 0.75rem;
 }
 .hero-right-section>button,.page-2 .seminar-section>button{
     border-color: var(--bg-blue);
@@ -215,3 +215,10 @@ a, a:hover, a:focus {
         display:none;
     }
   }
+
+  @media only screen and (max-width: 500px) {
+    .hero-right-section>h1,.inside-seminar-section .right>h1{
+        font-size: 4rem;
+    }
+  }
+  
