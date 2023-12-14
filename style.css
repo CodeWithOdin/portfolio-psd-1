@@ -93,8 +93,8 @@ a, a:hover, a:focus {
 
 .seminar-section > h1{
     margin-bottom:  50px;
-    font-size: 6.25rem;
-    line-height: 100px;
+    font-size: clamp(6.25rem,6vw,2rem);
+    line-height:clamp(100px,5vw,70px);
     position: relative;
 }
 .seminar-section > h1::before,.main-container .subcontainer > h1::before{
@@ -220,6 +220,11 @@ a, a:hover, a:focus {
   @media only screen and (max-width: 600px) {
     .hero-right-section>h1,.inside-seminar-section .right>h1{
         font-size: 4rem;
+    }
+    .seminar-section > h1{
+        
+        font-size: 5.25rem;
+       
     }
   }
   
