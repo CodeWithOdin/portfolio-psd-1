@@ -90,6 +90,7 @@ a, a:hover, a:focus {
 .seminar-section{
     margin-bottom: 180px;
 }
+
 .seminar-section > h1{
     margin-bottom:  50px;
     font-size: 6.25rem;
@@ -216,7 +217,7 @@ a, a:hover, a:focus {
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     .hero-right-section>h1,.inside-seminar-section .right>h1{
         font-size: 4rem;
     }
