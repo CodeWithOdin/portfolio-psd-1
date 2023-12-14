@@ -226,8 +226,16 @@ a, a:hover, a:focus {
         line-height:clamp(1.5rem,8vw,3rem);
         margin-bottom: 2rem;
     }
-    /* .seminar-section > h1{       
-        font-size: 3.25rem;      
-    } */
+  }
+  @media only screen and (max-width: 768px){
+    .seminar-section-footer{
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 5px;     
+    }
+    .seminar-section-footer .right{
+        width: 70% !important;
+        margin-top: 5px;
+    }
   }
   
