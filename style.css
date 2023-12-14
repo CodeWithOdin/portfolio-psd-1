@@ -1,0 +1,217 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Poppins:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,700&family=Lato:wght@300&family=Poppins:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lato:wght@300&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-light:#f7f0e8;
+    --bg-blue:#4012cb;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bg-light);
+}
+.common-padding{
+    padding-right: 6.75rem;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.navbar-nav > li {
+    /* float: left; */
+    position: relative;
+  }
+
+.navbar-nav .nav-link.active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: " ";
+    border-bottom: 5px solid var(--bg-blue);
+  }
+
+.hero-right-section>h1,.inside-seminar-section .right>h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 75px;
+    line-height: 70px;
+}
+.hero-right-section>p,.seminar-section-footer .right,.inside-seminar-section .left > p,.inside-seminar-section .right .row > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12.5px;
+}
+.hero-right-section>button,.page-2 .seminar-section>button{
+    border-color: var(--bg-blue);
+    border-width: 3px;
+    color: var(--bg-blue);
+    font-weight: 500;
+}
+.hero-section-second-coloumn-para,.seminar-section-footer{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: italic;
+    font-size: 33.34px;
+}
+.hero-section-second-coloumn-para>p,.seminar-section-footer .left{
+    line-height: 18px;
+}
+.hero-section-second-coloumn-para>p>span,.seminar-section-footer .left>span{
+    font-size: 20.34px;
+}
+.divider-one{
+    background-color: var(--bg-blue);
+}
+.divider-one .section-common-style > h1{
+    position: relative;
+}
+.divider-one .section-common-style > h1::after {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 97%;
+    content: " ";
+    border-bottom: 5px solid var(--bg-light);
+}
+.divider-one .section-common-style > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12.5px;
+    position: relative;
+}
+.seminar-section{
+    margin-bottom: 180px;
+}
+.seminar-section > h1{
+    margin-bottom:  50px;
+    font-size: 6.25rem;
+    line-height: 100px;
+    position: relative;
+}
+.seminar-section > h1::before,.main-container .subcontainer > h1::before{
+    position: absolute;
+    content:"\201C";
+    left: 180px;
+    font-weight: bold;
+}
+.seminar-section > h1::after,.main-container .subcontainer > h1::after{
+    position: absolute;
+    content:"\201D";
+    font-weight: bold;
+}
+.inside-seminar-section{
+    background-color: var(--bg-blue);
+}
+.seminar-section-footer .right{
+    font-style: normal;
+}
+.inside-seminar-section .left{
+    position: relative;
+    overflow: hidden;
+}
+.inside-seminar-section .left::before{
+    content: "";
+    position: absolute;
+    background-color: antiquewhite;
+    height: 95%;
+    width:5px;
+    right: 0;
+}
+.inside-seminar-section .right .row{
+    margin-top: 75px;
+}
+.inside-seminar-section .right .row>img{
+    margin-top: 40px;
+    height:50px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.inside-seminar-section .left>h1{
+    font-size: 2.6rem;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.inside-seminar-section .left>button{
+    background-color: aliceblue;
+    color:var(--bg-blue);
+    font-weight: 500;
+    margin-top: 40px;
+}
+.inside-seminar-section .right>h1{
+    font-size: 4.3rem;
+    line-height: 4.5rem;
+}
+.page-3{
+    color: white;
+    background-image: url(./img/6504025\ \(1\).webp);
+    background-size: cover;
+    background-position: center center;
+}
+.page-3 .main-container{
+    height: 80%;
+    margin-top: 7rem;
+}
+.main-container .subcontainer > h1::before{
+    right: 235px;
+}
+.main-container .subcontainer > h1{
+    position: relative;
+}
+.main-container>h1{
+    font-size:90px;
+}
+
+.page-4, .page-4>.row{
+    height: 50vh;
+}
+.page-4-inner, .page-4-inner-2,.page-4-coloumn{
+    position: relative;
+}
+.page-4-inner::after, .page-4-inner-2::after,.page-4-coloumn::after{
+    content: "";
+    position: absolute;
+    background-color: antiquewhite;
+    height: 100%;
+    width:5px;
+    right: 0;
+}
+.page-4-inner::before, .page-4-inner-2::before,.page-4-coloumn::before{
+    content: "";
+    position: absolute;
+    background-color: antiquewhite;
+    height: 100%;
+    width:5px;
+    left: 0;
+}
+.page-4-coloumn::after{
+    top:0;
+}
+.page-4{
+    background-color: var(--bg-blue);
+}
+.form-group>input{
+    background-color: transparent;
+    color: var(--bg-light);
+}
+.form-group>input::placeholder{
+    color: var(--bg-light);
+}
+.form>button{
+    color: var(--bg-blue);
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero-img{
+        display:none;
+    }
+  }
