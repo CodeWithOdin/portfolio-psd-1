@@ -165,7 +165,7 @@ a, a:hover, a:focus {
     margin-top: 7rem;
 }
 .main-container .subcontainer > h1::before{
-    right: 235px;
+    transform: translateX(-16px);
 }
 .main-container .subcontainer > h1{
     position: relative;
@@ -218,6 +218,7 @@ a, a:hover, a:focus {
     .hero-img{
         display:none;
     }
+    
   }
 
   @media only screen and (max-width: 600px) {
