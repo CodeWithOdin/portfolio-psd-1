@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 :root{
     --bg-light:#f7f0e8;
@@ -71,14 +72,6 @@ a, a:hover, a:focus {
     background-color: var(--bg-blue);
 }
 .divider-one .section-common-style > h1{
-    position: relative;
-}
-.divider-one .section-common-style > h1::after {
-    position: absolute;
-    bottom:0;
-    left: 0;
-    width: 97%;
-    content: " ";
     border-bottom: 5px solid var(--bg-light);
 }
 .divider-one .section-common-style > p{
@@ -166,6 +159,16 @@ a, a:hover, a:focus {
 .main-container .subcontainer > h1{
     position: relative;
 }
+.main-container .subcontainer .btn{
+    color: white;
+    transition: 0.1s;
+    font-weight: 500;
+}
+.main-container .subcontainer .btn:hover{
+    background-color:var(--bg-light);
+    color: black;
+    font-weight: 500;
+}
 .main-container>h1{
     font-size:90px;
 }
@@ -220,25 +223,24 @@ a, a:hover, a:focus {
     width:95%;
     height:100%;
     margin-right: 1rem;
-    /* display:flex;
-    justify-content:center;
-    align-items:center; */
     line-height:1.5;
   }
   .faq .accordion{
     padding:1rem;
-    /* width:50%; */
     width: 90%;
-  /*   border:1px solid black; */
   }
   .faq .panel{
     padding:1rem;
-    /* border:1px solid black; */
+  }
+  .faq .head:hover {
+    border-width: 3px;
+    box-shadow: 0px 2px 3px 0px;
   }
   .faq .head{
     padding-bottom:0.5rem;
     position:relative;
     border:1px solid var(--bg-blue); 
+    transition: border-width 0.05s;
   }
   .btns{
     border:0;
@@ -308,17 +310,14 @@ a, a:hover, a:focus {
     font-family: 'Lato', sans-serif;
 }
 .footer .main-content .list>li>a{
-    position: relative;
     padding-bottom: 0.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--bg-light);
+    text-underline-offset: 5px;
 }
-.footer .main-content .list>li>a::after{
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;  
-    border-bottom: 3px solid var(--bg-light);
-    
+.footer .main-content .list>li>a:hover{
+    opacity: 0.6;
 }
 
 
