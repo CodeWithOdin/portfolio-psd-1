@@ -307,11 +307,10 @@ a, a:hover, a:focus {
 .footer .main-content .list{
     list-style: none;
 }
-/* .footer .main-content .list>li{
-    border-bottom: 2px solid var(--bg-light);
+.footer .main-content .list>li{
     font-weight: 200;
     font-family: 'Lato', sans-serif;
-} */
+}
 .footer .main-content .list>li>a{
     position: relative;
     padding-bottom: 0.5rem;
@@ -322,7 +321,7 @@ a, a:hover, a:focus {
     bottom: 0;
     left: 0;
     width: 100%;  
-    border-bottom: 5px solid var(--bg-light);
+    border-bottom: 3px solid var(--bg-light);
     
 }
 
