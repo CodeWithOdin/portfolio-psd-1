@@ -29,7 +29,13 @@ a, a:hover, a:focus {
 .navbar-nav > li {
     position: relative;
   }
-
+  .custom-toggler {
+   border-style: none; /* Change the stroke color to semi-transparent white */
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+    border: 5px solid var(--bg-blue);
+  }
 .navbar-nav .nav-link.active::after {
     position: absolute;
     bottom: 0;
