@@ -39,6 +39,9 @@ a, a:hover, a:focus {
     border-bottom: 5px solid var(--bg-blue);
   }
 
+.header__container{
+    max-height: 100vh;
+}
 .hero-right-section>h1,.inside-seminar-section .right>h1{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 4.7rem;
@@ -325,6 +328,9 @@ a, a:hover, a:focus {
 @media only screen and (max-width: 1200px) {
     .hero-img{
         display:none;
+    }
+    .header__container{
+        height: 75vh;
     }
     
   }
