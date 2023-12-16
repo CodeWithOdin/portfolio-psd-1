@@ -332,6 +332,9 @@ a, a:hover, a:focus {
     .header__container{
         height: 75vh;
     }
+    .header{
+        margin-bottom: 25px;
+    }
     
   }
 
