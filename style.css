@@ -14,7 +14,7 @@
 :root{
     --bg-light:#f7f0e8;
     --bg-blue:#4012cb;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 html{
     scroll-behavior: smooth;
